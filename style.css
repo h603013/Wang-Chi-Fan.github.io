@@ -1,8 +1,21 @@
-.IMG-page1 {
-    width: auto;
+
+.page-1IMG{
+    position:absolute;
+    width: 35vw;
+    
+
+
 }
+
+.gundamIMG {
+    position: absolute;
+    z-index: 1;
+}
+
+
 .IMG-page2 {
-    width: auto
+    position:absolute;
+    z-index:1;
 }
 
 .IMG-page3 {
