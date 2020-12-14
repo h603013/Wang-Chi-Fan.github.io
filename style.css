@@ -1,27 +1,138 @@
-
-.page-1IMG{
-    position:absolute;
-    width: 35vw;
-    
-
-
-}
-
-.gundamIMG {
+.page-1{
     position: absolute;
+    top: 0;
+    left: 0;
     z-index: 1;
 }
 
-
-.IMG-page2 {
-    position:absolute;
-    z-index:1;
+.gundam{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 17;
 }
 
-.IMG-page3 {
-    width: auto
+#section-3 {
+    position: relative;
 }
 
-.IMG-page4 {
-    width: auto
+#section-3 .gundam {
+    display: none;
+}
+
+#section-3 .show {
+    display: block;
+}
+
+.lightleft{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 16;
+}
+
+.lightleft img {
+    /* LG: Change img size */
+    
+}
+
+.lightright{
+    position: absolute;
+    z-index: 16;
+}
+
+.glass{
+    position: absolute;
+    z-index: 3;
+}
+
+.flower{
+    
+    position: absolute;
+    top: -100px;
+    z-index: 3;
+}
+.poster{
+   
+    position: absolute;
+    z-index: 2;
+}
+.bamax {
+    position: absolute;
+    z-index: 4;
+}
+
+.basketball {
+    position: absolute;
+    z-index: 2;
+}
+
+.center {
+    position: absolute;
+    z-index: 2;
+}
+
+.MAC {
+    position: absolute;
+    z-index: 5; 
+}
+
+.note {
+    position: absolute;
+    z-index: 3; 
+}
+
+.orange {
+    position: absolute;
+    z-index: 4; 
+}
+
+.pc1 {
+    position: absolute;
+    z-index: 3; 
+}
+
+.pc2 {
+    position: absolute;
+    z-index: 3; 
+}
+
+.pokemon_switch_1 {
+    position: absolute;
+    z-index: 4;
+}
+
+.pokemon_switch_2 {
+    position: absolute;
+    z-index: 4;
+}
+.starbucks {
+    position: absolute;
+    z-index: 4;
+}
+
+.watch {
+    position: absolute;
+    z-index: 4;
+}
+.page-2 {
+    position: relative;
+    width: auto;
+    bottom: 100px;
+    z-index: 1;
+    
+}
+
+.page-3 {
+    position: relative;
+    width: auto;
+    bottom: 100px;
+ 
+}
+
+.page-4{
+    position: relative;
+    width: auto;
+    bottom: 100px;
+ 
 }
