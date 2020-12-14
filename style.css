@@ -1,11 +1,9 @@
 body {
     margin: 0;
     padding: 0;
-    font: 14px 'Poppins', Arial, Helvetica, sans-serif;
 }
 
 section {
-    position: relative;
     height: 100vh;
     width: 100%;
 }
@@ -20,18 +18,16 @@ img {
     z-index: 1;
 }
 
-/* old crop  */
 #section-1 img {
     height: 100vh;
     width: 100%;
     object-fit: contain;
 }
-
-/* new crop  */
 .MAC img, .lightleft img, .lightright img {
     height: auto !important;
     width: 100%;
 }
+
 
 .page-1 img, img#page-2, img#page-3 {
     height: 100vh;
@@ -39,19 +35,21 @@ img {
     object-fit: cover !important;
 }
 
-  .tooltip .tooltiptext {
+.tooltip .tooltiptext {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
     visibility: hidden;
     width: 300px;
-    background-color: #000000;
+    background-color: rgb(42, 20, 165);
     color: #fff;
     text-align: center;
-    border-radius: 6px;
+    border-radius: 10px;
     padding: 5px 0;
     position: absolute;
     z-index: 1;
-    bottom: 125%;
+    bottom: 57%;
     left: 50%;
-    margin-left: -150px;
+    margin-left: -100px;
     opacity: 0;
     transition: opacity 0.3s;
   }
@@ -72,32 +70,19 @@ img {
     opacity: 1;
   }
 
-.gundam {
+.gundam{
     position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 17;
+    z-index: 102;
+    bottom: -35%;
+    left: 20% ;
+   
+   
 }
 
 #section-3 {
     position: relative;
 }
-h2{
-    position: relative;
-    color: white;
-    left: 2500px;
-    bottom: 1300px;
-    font-size: 100px;
-}
 
-p{
-    position: relative;
-    color: black;
-    left: 2500px;
-    bottom: 1300px;
-    font-size: 100px;
-
-}
 #section-3 .gundam {
     display: none;
 }
@@ -108,14 +93,10 @@ p{
 
 .lightleft {
     position: absolute;
-    bottom: 10%;
-    left: 5%;
-    z-index: 16;
-<<<<<<< HEAD
-    width: 34%;
-=======
-   
->>>>>>> 4f5f6add3c88c879a9c74e1113d3241e958dec91
+    bottom: 15%;
+    left: 1%;
+    z-index: 101;
+    width: 20%;
 }
 
 .lightleft img {
@@ -125,91 +106,131 @@ p{
 
 .lightright{
     position: absolute;
-    z-index: 16;
-    bottom: 10%;
-    right: 8%;
-    width: 34%;
+    z-index: 107;
+    bottom: 20%;
+    right: 2%;
+    width: 20%;
 }
 
 .glass{
     position: absolute;
-    z-index: 3;
+    z-index: 104;
+    bottom: -40%;
+    left: 52% ;
+    width: 10%;
+   
 }
 
 .flower{
     
     position: absolute;
-    top: -300px;
-    z-index: 3;
+    
+    z-index: 98;
+    bottom: 35%;
+    right: 18%;
+    width: 15%;
 }
 .poster{
    
     position: absolute;
-    top:-300px;
-    z-index: 2;
+    z-index: 98;
+    bottom: 40%;
+    left: 15% ;
+    width: 20% ;
 }
 .bamax {
     position: absolute;
-    z-index: 4;
+    z-index: 101;
+    bottom: 20%;
+    right: 65% ;
+    width: 10%;
+   
 }
 
 .basketball {
     position: absolute;
-    z-index: 2;
+    z-index: 98;
+    bottom: 30%;
+    left: 85% ;
+    width: 10%;
 }
 
 .center {
     position: absolute;
-    z-index: 2;
+    bottom: 28%;
+    left: 45% ;
+    z-index: 110;
+    width: 13% ;
 }
 
 .MAC {
     position: absolute;
     z-index: 5; 
-    bottom: 20%;
-    left: 45%;
+    bottom: 18%;
+    left: 40%;
     height: auto;
     width: 12%;
-    z-index: 100;
+    z-index: 101;
 }
 
 .note {
     position: absolute;
-    z-index: 3; 
+    z-index: 98;
+    bottom: 20%;
+    right: 80% ;
 }
 
 .orange {
     position: absolute;
-    z-index: 4; 
+    z-index: 102;
+    bottom: -45%;
+    left: 85% ;
 }
 
 .pc1 {
     position: absolute;
-    z-index: 3; 
+    z-index: 100;
+    bottom: -5%;
+    left: 28% ; 
 }
 
 .pc2 {
     position: absolute;
-    z-index: 3; 
+    z-index: 102;
+    bottom: -5%;
+    left: 55% ;
+    width: 18%;
+   
 }
 
 .pokemon_switch_1 {
     position: absolute;
     z-index: 4;
+    position: absolute;
+    z-index: 105;
+    bottom: -50%;
+    left: 10% ;
 }
 
 .pokemon_switch_2 {
     position: absolute;
-    z-index: 4;
+    z-index: 103;
+    bottom: -30%;
+    left: 70% ;
+    width:10%;
 }
 .starbucks {
     position: absolute;
-    z-index: 4;
+    z-index: 103;
+    bottom: -46%;
+    left: 44% ;
 }
 
 .watch {
     position: absolute;
-    z-index: 4;
+    z-index: 104;
+    bottom: 10%;
+    left: 80% ;
 }
 .page-2 {
     position: relative;
@@ -218,12 +239,26 @@ p{
     z-index: 1;
     
 }
+.page-2word {
+    font-size:200%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+    color: yellow;
+    position:absolute;
+    z-index:2;
+    word-break: break-word;
+    bottom: -46%;
+    left: 45% 
+
+}
+
+}
 
 .page-3 {
     position: relative;
     width: auto;
     bottom: 100px;
-    size: 200px;
  
 }
 
