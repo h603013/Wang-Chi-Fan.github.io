@@ -1,12 +1,11 @@
-
-
 const navLinks = document.querySelectorAll('.link');
 
 let objectClicked;
 
 function scrollSection(section) {
-
-  document.querySelector(`#section-3 .${objectClicked}`).classList.addClass('show');
+  console.log(`#section-3 .${objectClicked}`);
+  document.querySelector(`#section-3 .${objectClicked}`).classList.add('show');
+  
   window.scroll({
     top: document.getElementById(section).offsetTop,
     behavior: 'smooth' 
@@ -18,7 +17,6 @@ navLinks.forEach(function(element) {
     e.preventDefault();
   
     objectClicked = this.classList[0];
-    console.log(objectClicked);
     let target = this.dataset.link;
   
     scrollSection(target);
